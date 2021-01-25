@@ -1,0 +1,21 @@
+.footer {
+  height: 3.6rem;
+
+  display: flex;
+  margin-top: auto;
+
+  border-top: 1px solid rgb(235, 238, 240);
+
+  a {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      stroke-width: 0;
+      width: 1.75rem;
+    }
+  }
+}

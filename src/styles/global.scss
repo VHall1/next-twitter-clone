@@ -1,0 +1,20 @@
+:root {
+  font-size: 93.75%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#__next {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+
+  overflow-y: scroll;
+}
